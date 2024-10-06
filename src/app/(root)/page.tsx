@@ -16,7 +16,6 @@ const Home = () => {
 	return (
 		<main
 			className='w-full grid lg:grid-cols-3 gap-y-16 tablet:gap-x-6 lg:gap-x-7.5'
-			aria-labelledby='main-heading'
 		>
 			{/* hero */}
 			<section
