@@ -16,7 +16,7 @@ const MobileNavigation = () => {
 		};
 		document.addEventListener('keydown', handleKeyDown);
 		return () => document.removeEventListener('keydown', handleKeyDown);
-	}, [on]);
+	}, [on, toggle]);
 
 	return (
 		<>
